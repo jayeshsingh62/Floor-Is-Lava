@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BallTransform : MonoBehaviour
 {
-    public Vector3 scaleChange;
+    public Vector3 ScaleChange;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +14,6 @@ public class BallTransform : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.localScale += scaleChange;
+        transform.localScale += ScaleChange;
     }
 }
